@@ -20,7 +20,6 @@ using std::ostream_iterator;
 
 /**
  * Default constructor for class-10
- * Does magic stuff
  */
 TextBuffer::TextBuffer(size_t s){
 	capacity_ = s;
@@ -32,7 +31,6 @@ TextBuffer::TextBuffer(size_t s){
 
 /**
  * Copy constructor
- * Also does magic
  */
 TextBuffer::TextBuffer(TextBuffer& tb){
 	capacity_ = tb.capacity_;
